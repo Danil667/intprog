@@ -1,0 +1,75 @@
+body {
+    background-color: rgba(255,168,0,0.67);
+}
+.nav {
+    background-color: rgb(255, 168, 0);
+}
+.goods {
+    background-color: rgb(255, 168, 0); 
+    margin-top: 30px;
+}
+.tabletest {
+    border-collapse: separate; 
+    border-spacing: 0px 40px;
+}
+tbody.tabletest,
+tbody > tr.tabletest > td {
+    border: none;
+}
+
+tbody.tabletest,
+tbody > tr.tabletest > th {
+    border: none;
+}
+
+.imgset {
+    border-radius: 10px;
+    block-size: 5vw;
+}
+
+.stylehead {
+    margin-top: 6vw;
+    text-align: center;
+    color: rgba(66,97,190,0.8824);
+}
+
+thead.tabletest,
+thead > tr.tabletest > th {
+    border:none;
+    background-color: rgb(255, 168, 0);
+}
+.text {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.mybut {
+    margin-top: 40px;
+    border-radius: 6px;
+    border: 2px solid #9b9b9b;
+    width: 100px;
+}
+
+.but {
+    background-color: rgb(2,117,216);
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid  rgb(2,117,216);
+    color: white;
+}
+
+.search {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 20px;
+    padding: 7px;
+    width: 55vw ;
+    border: 2px solid #9b9b9b;
+    border-radius: 6px;
+}
+
+.deleteorder {
+    color: red;
+    font-size: 20px;
+}
